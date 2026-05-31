@@ -26,7 +26,7 @@ mdc: true
     <h1>Produtos para dar clareza à operação.</h1>
     <p class="lead">Uma apresentação executiva para mostrar módulos, fluxos e evidências reais dos produtos Olcen.</p>
     <div class="cover-rail">
-      <span>RU Olcen</span>
+      <span>RH Olcen</span>
       <span>CRM</span>
       <span>Ponto</span>
       <span>Voz</span>
@@ -55,7 +55,7 @@ routeAlias: produtos
   <div class="product-menu reveal-seq delay-1">
     <div class="product-card product-card-featured">
       <div class="product-card-top"><span>01</span><small>Pronto para apresentar</small></div>
-      <h3>RU Olcen</h3>
+      <h3>RH Olcen</h3>
       <p>Gestão de pessoas, recrutamento, portal do colaborador, ponto, férias, remuneração e indicadores em uma base única.</p>
       <Link to="rh" class="card-link">Abrir apresentação</Link>
     </div>
@@ -89,12 +89,12 @@ routeAlias: rh
 
   <div class="product-hero-copy reveal-seq">
     <p class="eyebrow">Produto 01</p>
-    <h1>RU Olcen</h1>
+    <h1>RH Olcen</h1>
     <p class="lead">Uma camada operacional e analítica para áreas de RH que precisam controlar pessoas, jornada, talentos e remuneração sem depender de planilhas paralelas.</p>
   </div>
 
   <div class="product-hero-shot reveal-seq delay-1">
-    <img src="./public/screenshots/ru-olcen/raw/dashboard.png" alt="Dashboard de indicadores do RU Olcen" />
+    <img src="./public/screenshots/rh-olcen/raw/dashboard.png" alt="Dashboard de indicadores do RH Olcen" />
   </div>
 </section>
 
@@ -132,7 +132,7 @@ layout: default
 
 <section class="platform-map-slide stage-frame">
   <div class="slide-head reveal-seq">
-    <p class="eyebrow">Como o RU organiza a gestão</p>
+    <p class="eyebrow">Como o RH organiza a gestão</p>
     <h1>Uma base única conectando operação, experiência e decisão.</h1>
   </div>
 
@@ -219,7 +219,7 @@ layout: default
   </div>
   <div class="shot-frame reveal-seq delay-1">
     <div class="shot-bar"><span></span><span></span><span></span><strong>dashboard.rh</strong></div>
-    <img src="./public/screenshots/ru-olcen/raw/dashboard.png" alt="Dashboard de indicadores do RU Olcen" />
+    <img src="./public/screenshots/rh-olcen/raw/dashboard.png" alt="Dashboard de indicadores do RH Olcen" />
   </div>
 </section>
 
@@ -239,7 +239,7 @@ layout: default
   </div>
   <div class="shot-frame reveal-seq delay-1">
     <div class="shot-bar"><span></span><span></span><span></span><strong>colaboradores.rh</strong></div>
-    <img src="./public/screenshots/ru-olcen/raw/colaboradores-lista.png" alt="Lista de colaboradores do RU Olcen" />
+    <img src="./public/screenshots/rh-olcen/raw/colaboradores-lista.png" alt="Lista de colaboradores do RH Olcen" />
   </div>
 </section>
 
@@ -259,7 +259,7 @@ layout: default
   </div>
   <div class="shot-frame reveal-seq delay-1">
     <div class="shot-bar"><span></span><span></span><span></span><strong>carreiras.rh</strong></div>
-    <img src="./public/screenshots/ru-olcen/raw/carreiras.png" alt="Tela de carreiras do RU Olcen" />
+    <img src="./public/screenshots/rh-olcen/raw/carreiras.png" alt="Tela de carreiras do RH Olcen" />
   </div>
 </section>
 
@@ -279,7 +279,7 @@ layout: default
   </div>
   <div class="shot-frame reveal-seq delay-1">
     <div class="shot-bar"><span></span><span></span><span></span><strong>remuneracao.rh</strong></div>
-    <img src="./public/screenshots/ru-olcen/raw/panorama-salarial.png" alt="Panorama salarial do RU Olcen" />
+    <img src="./public/screenshots/rh-olcen/raw/panorama-salarial.png" alt="Panorama salarial do RH Olcen" />
   </div>
 </section>
 
@@ -299,7 +299,7 @@ layout: default
   </div>
   <div class="shot-frame reveal-seq delay-1">
     <div class="shot-bar"><span></span><span></span><span></span><strong>recrutamento.rh</strong></div>
-    <img src="./public/screenshots/ru-olcen/raw/recrutamento.png" alt="Tela de recrutamento do RU Olcen" />
+    <img src="./public/screenshots/rh-olcen/raw/recrutamento.png" alt="Tela de recrutamento do RH Olcen" />
   </div>
 </section>
 
@@ -319,7 +319,7 @@ layout: default
   </div>
   <div class="shot-frame reveal-seq delay-1">
     <div class="shot-bar"><span></span><span></span><span></span><strong>ponto.rh</strong></div>
-    <img src="./public/screenshots/ru-olcen/raw/controle-ponto.png" alt="Controle de ponto do RU Olcen" />
+    <img src="./public/screenshots/rh-olcen/raw/controle-ponto.png" alt="Controle de ponto do RH Olcen" />
   </div>
 </section>
 
@@ -339,7 +339,7 @@ layout: default
   </div>
   <div class="shot-frame reveal-seq delay-1">
     <div class="shot-bar"><span></span><span></span><span></span><strong>portal.rh</strong></div>
-    <img src="./public/screenshots/ru-olcen/raw/portal-colaborador.png" alt="Portal do colaborador do RU Olcen" />
+    <img src="./public/screenshots/rh-olcen/raw/portal-colaborador.png" alt="Portal do colaborador do RH Olcen" />
   </div>
 </section>
 
@@ -368,7 +368,7 @@ layout: default
 <section class="feature-table-slide stage-frame">
   <div class="slide-head reveal-seq">
     <p class="eyebrow">Mapa de funcionalidades</p>
-    <h1>Principais recursos do RU Olcen.</h1>
+    <h1>Principais recursos do RH Olcen.</h1>
   </div>
 
   <div class="feature-table-wrap reveal-seq delay-1">
@@ -459,7 +459,7 @@ routeAlias: voz
   <div class="reveal-seq">
     <p class="eyebrow">Próximos passos</p>
     <h1>Completar cada produto com evidência real.</h1>
-    <p class="lead">A apresentação do RU Olcen já está pronta. CRM, Ponto e Voz ficam preparados para receber capturas do sistema, fluxo principal, métricas de impacto e chamada comercial específica.</p>
+    <p class="lead">A apresentação do RH Olcen já está pronta. CRM, Ponto e Voz ficam preparados para receber capturas do sistema, fluxo principal, métricas de impacto e chamada comercial específica.</p>
     <Link to="produtos" class="card-link">Voltar ao menu</Link>
   </div>
 </section>

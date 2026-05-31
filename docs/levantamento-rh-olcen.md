@@ -1,4 +1,4 @@
-# Levantamento de features — RU Olcen
+# Levantamento de features — RH Olcen
 
 Data: 2026-05-31
 
@@ -6,7 +6,7 @@ Fonte analisada: `/Users/marcondesmacaneiro/workspace/olcen/helium_app`
 
 ## Leitura executiva
 
-O RU Olcen está estruturado como uma plataforma SaaS de RH para PMEs brasileiras, com foco em gestão por competências, ciclo de colaborador, portal do colaborador, recrutamento, ponto, remuneração e indicadores.
+O RH Olcen está estruturado como uma plataforma SaaS de RH para PMEs brasileiras, com foco em gestão por competências, ciclo de colaborador, portal do colaborador, recrutamento, ponto, remuneração e indicadores.
 
 Para apresentação comercial, a narrativa mais forte não deve ser uma lista de telas. O melhor eixo é:
 
@@ -41,7 +41,7 @@ Observação: alguns módulos existem no código, mas a base demo ainda não est
 
 Pasta:
 
-`public/screenshots/ru-olcen/raw/`
+`public/screenshots/rh-olcen/raw/`
 
 Arquivos:
 
@@ -64,7 +64,7 @@ Arquivos:
 
 Resumo comercial:
 
-O RU Olcen dá ao RH uma visão executiva da operação: headcount, turnover, absenteísmo, retenção, custo de rotatividade e recortes por área.
+O RH Olcen dá ao RH uma visão executiva da operação: headcount, turnover, absenteísmo, retenção, custo de rotatividade e recortes por área.
 
 Valor para o cliente:
 
@@ -145,7 +145,7 @@ Feature estratégica para narrativa. Precisa de print melhor ou mock controlado 
 
 Resumo comercial:
 
-O RU Olcen inclui avaliação comportamental com DISC, Jung e Spranger, coleta por convidados e geração de relatório com IA.
+O RH Olcen inclui avaliação comportamental com DISC, Jung e Spranger, coleta por convidados e geração de relatório com IA.
 
 Valor para o cliente:
 
@@ -361,10 +361,10 @@ Status para deck:
 
 Boa para narrativa de desenvolvimento, mas precisa de dado demo.
 
-## Roteiro sugerido para apresentação do RU Olcen
+## Roteiro sugerido para apresentação do RH Olcen
 
 1. Abertura: "O RH opera em muitos sistemas, planilhas e conversas soltas."
-2. Visão: "RU Olcen centraliza a operação de pessoas em uma plataforma única."
+2. Visão: "RH Olcen centraliza a operação de pessoas em uma plataforma única."
 3. Dashboard executivo: indicadores e recortes por área.
 4. Base de pessoas: colaboradores, empresas, departamentos e estrutura.
 5. Carreiras e competências: cargos, níveis e critérios.
@@ -383,4 +383,4 @@ Boa para narrativa de desenvolvimento, mas precisa de dado demo.
 2. Capturar prints mais focados, com crop por área útil e sem excesso de sidebar quando o slide pedir.
 3. Definir se o deck será para venda consultiva de 8-10 slides ou apresentação completa de produto com 14-16 slides.
 4. Transformar os prints brutos em assets recortados para Slidev.
-5. Criar uma seção "RU Olcen" dentro do deck atual, mantendo o menu inicial por produtos.
+5. Criar uma seção "RH Olcen" dentro do deck atual, mantendo o menu inicial por produtos.
