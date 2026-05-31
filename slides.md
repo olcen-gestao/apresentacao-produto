@@ -34,9 +34,9 @@ routeAlias: produtos
   <div class="product-menu">
     <div class="product-card product-card-featured">
       <span>01</span>
-      <h3>Olcen RH</h3>
-      <p>Gestão de pessoas, vagas, processos seletivos e rotinas de RH em um fluxo centralizado.</p>
-      <Link to="rh" title="Abrir Olcen RH" />
+      <h3>RU Olcen</h3>
+      <p>Gestão de pessoas, recrutamento, portal do colaborador, ponto, férias e remuneração em uma base única.</p>
+      <Link to="rh" title="Abrir RU Olcen" />
     </div>
     <div class="product-card">
       <span>02</span>
@@ -66,64 +66,161 @@ routeAlias: rh
 <section class="section-slide">
   <Link to="produtos" title="Voltar ao menu" />
   <p class="eyebrow">Produto 01</p>
-  <h1>Olcen RH</h1>
-  <p class="lead">Uma plataforma para organizar processos de pessoas com mais visibilidade, rastreabilidade e velocidade.</p>
+  <h1>RU Olcen</h1>
+  <p class="lead">Uma plataforma para centralizar a operação de RH: pessoas, cargos, competências, recrutamento, jornada, férias, portal e decisões de remuneração.</p>
 </section>
 
 ---
 layout: two-cols
 ---
 
-# O problema
+# O problema que o RU resolve
 
-Times de RH em crescimento lidam com dados espalhados, processos manuais e pouca visibilidade sobre prioridades.
+Times de RH em crescimento operam com dados espalhados entre planilhas, e-mail, WhatsApp, documentos e sistemas sem conexão.
 
 ::right::
 
 <div class="impact-list">
-  <p>Vagas, candidatos e etapas ficam fragmentados.</p>
-  <p>A liderança perde clareza sobre prazos e gargalos.</p>
-  <p>O time gasta energia atualizando controles paralelos.</p>
+  <p>O RH perde tempo conciliando dados de colaboradores, cargos, vagas e ponto.</p>
+  <p>A liderança decide com baixa visibilidade sobre turnover, absenteísmo e remuneração.</p>
+  <p>O colaborador depende do RH para tarefas simples que poderiam ser autoatendidas.</p>
 </div>
 
 ---
 
-# Valor do produto
+# Proposta de valor
 
 <div class="feature-grid">
   <div>
     <span>01</span>
-    <h3>Pipeline de vagas</h3>
-    <p>Acompanhamento de candidatos, etapas e responsáveis em um fluxo único.</p>
+    <h3>Base única de pessoas</h3>
+    <p>Empresas, departamentos, colaboradores, cargos, carreiras e status em uma estrutura centralizada.</p>
   </div>
   <div>
     <span>02</span>
-    <h3>Rotinas de RH</h3>
-    <p>Organização de demandas recorrentes com responsáveis, status e histórico.</p>
+    <h3>Rotinas rastreáveis</h3>
+    <p>Recrutamento, onboarding, ponto, férias, solicitações e denúncias com histórico e responsáveis.</p>
   </div>
   <div>
     <span>03</span>
-    <h3>Visão gerencial</h3>
-    <p>Indicadores para entender volume, prioridade e evolução dos processos.</p>
+    <h3>Decisão com dados</h3>
+    <p>Indicadores, panorama salarial, competências, avaliações e plano de ação para orientar prioridades.</p>
   </div>
 </div>
 
 ---
-layout: two-cols
 ---
 
-# Produto em ação
+<section class="visual-slide">
+  <div>
+    <p class="eyebrow">Visão executiva</p>
+    <h1>Indicadores RH</h1>
+    <p class="lead">Painel para acompanhar headcount, turnover, absenteísmo, retenção, custo de rotatividade e recortes por área.</p>
+  </div>
+  <img src="./public/screenshots/ru-olcen/raw/dashboard.png" alt="Dashboard de indicadores do RU Olcen" class="product-shot" />
+</section>
 
-Use este slide para inserir uma captura real do Olcen RH.
+---
 
-<div class="callout">
-  Substitua o bloco ao lado por uma imagem em `public/screenshots/rh.png`.
-</div>
+<section class="visual-slide">
+  <div>
+    <p class="eyebrow">Base de pessoas</p>
+    <h1>Colaboradores e estrutura</h1>
+    <p class="lead">Cadastro de colaboradores com empresa, departamento, status, acesso ao portal, presença e ações administrativas.</p>
+  </div>
+  <img src="./public/screenshots/ru-olcen/raw/colaboradores-lista.png" alt="Lista de colaboradores do RU Olcen" class="product-shot" />
+</section>
 
-::right::
+---
 
-<div class="screenshot-placeholder">
-  <span>Olcen RH</span>
+<section class="visual-slide">
+  <div>
+    <p class="eyebrow">Cargos e desenvolvimento</p>
+    <h1>Carreiras, competências e CHA</h1>
+    <p class="lead">O RU organiza cargos, níveis, requisitos, atividades, atitudes e grade de complexidade para apoiar avaliações e desenvolvimento.</p>
+  </div>
+  <img src="./public/screenshots/ru-olcen/raw/carreiras.png" alt="Tela de carreiras do RU Olcen" class="product-shot" />
+</section>
+
+---
+
+<section class="visual-slide">
+  <div>
+    <p class="eyebrow">Remuneração</p>
+    <h1>Panorama salarial</h1>
+    <p class="lead">Comparação entre salário atual, carreira, cargo e benchmarks públicos para planejar ajustes com mais critério.</p>
+  </div>
+  <img src="./public/screenshots/ru-olcen/raw/panorama-salarial.png" alt="Panorama salarial do RU Olcen" class="product-shot" />
+</section>
+
+---
+
+<section class="visual-slide">
+  <div>
+    <p class="eyebrow">Aquisição de talentos</p>
+    <h1>Recrutamento e seleção</h1>
+    <p class="lead">Gestão de vagas, candidatos, candidaturas, entrevistas, banco de talentos, portal público e análise de aderência por IA.</p>
+  </div>
+  <img src="./public/screenshots/ru-olcen/raw/recrutamento.png" alt="Tela de recrutamento do RU Olcen" class="product-shot" />
+</section>
+
+---
+
+<section class="visual-slide">
+  <div>
+    <p class="eyebrow">Jornada e DP</p>
+    <h1>Controle de ponto</h1>
+    <p class="lead">Painel operacional para presença, horas extras, banco de horas, ajustes, escalas, auditoria geográfica, importações e fechamentos.</p>
+  </div>
+  <img src="./public/screenshots/ru-olcen/raw/controle-ponto.png" alt="Controle de ponto do RU Olcen" class="product-shot" />
+</section>
+
+---
+
+<section class="visual-slide">
+  <div>
+    <p class="eyebrow">Experiência do colaborador</p>
+    <h1>Portal do colaborador</h1>
+    <p class="lead">Autoatendimento para mural, ponto, documentos, holerites, 1:1, tempo livre, férias, solicitações, pessoas, pesquisas e benefícios.</p>
+  </div>
+  <img src="./public/screenshots/ru-olcen/raw/portal-colaborador.png" alt="Portal do colaborador do RU Olcen" class="product-shot" />
+</section>
+
+---
+
+# Cobertura funcional
+
+<div class="feature-grid compact-grid">
+  <div>
+    <span>01</span>
+    <h3>Operação de RH</h3>
+    <p>Colaboradores, empresas, departamentos, usuários, calendário, férias, ponto e solicitações.</p>
+  </div>
+  <div>
+    <span>02</span>
+    <h3>Talentos</h3>
+    <p>Recrutamento, entrevistas, onboarding, exames ocupacionais, treinamentos e banco de talentos.</p>
+  </div>
+  <div>
+    <span>03</span>
+    <h3>Desenvolvimento</h3>
+    <p>Carreiras, CHA, avaliação comportamental, 1:1, ninebox, plano de ação e PDI.</p>
+  </div>
+  <div>
+    <span>04</span>
+    <h3>Decisão</h3>
+    <p>Indicadores de RH, panorama salarial, benchmarks públicos e recortes por área.</p>
+  </div>
+  <div>
+    <span>05</span>
+    <h3>Portal</h3>
+    <p>Mural, documentos, holerites, benefícios, pesquisas, organograma e autoatendimento.</p>
+  </div>
+  <div>
+    <span>06</span>
+    <h3>Governança</h3>
+    <p>Canal de denúncias, auditoria, permissões, retenção de dados e histórico operacional.</p>
+  </div>
 </div>
 
 ---
