@@ -2,7 +2,7 @@
 theme: default
 title: Olcen | Apresentação de produto
 info: |
-  Deck público de apresentação de produto da Olcen.
+  Deck público de apresentação dos produtos da Olcen.
 class: olcen-deck
 favicon: ./public/olcen-simbolo.svg
 fonts:
@@ -13,21 +13,31 @@ transition: fade-out
 mdc: true
 ---
 
-<section class="cover-slide stage-frame">
-  <div class="deck-kicker">
-    <img src="./public/olcen-simbolo.svg" alt="Olcen" />
-    <span>Portfólio de produto</span>
+<section class="cover-slide cover-photo stage-frame">
+  <img src="./public/brand/olcen-hero-office.webp" alt="Equipe Olcen em reunião de trabalho" class="cover-photo-img" />
+  <div class="cover-photo-shade"></div>
+
+  <div class="cover-content reveal-seq">
+    <div class="deck-kicker">
+      <img src="./public/olcen-simbolo.svg" alt="Olcen" />
+      <span>Portfólio de produto</span>
+    </div>
+    <p class="eyebrow">Olcen Gestão</p>
+    <h1>Produtos para dar clareza à operação.</h1>
+    <p class="lead">Uma apresentação executiva para mostrar módulos, fluxos e evidências reais dos produtos Olcen.</p>
+    <div class="cover-rail">
+      <span>RU Olcen</span>
+      <span>CRM</span>
+      <span>Ponto</span>
+      <span>Voz</span>
+    </div>
   </div>
-  <div class="cover-grid">
-    <div class="reveal-seq">
-      <h1>Produtos para transformar operação em clareza de gestão.</h1>
-      <p class="lead">Um deck navegável para apresentar módulos, fluxos e evidências reais de produto com ritmo executivo.</p>
-    </div>
-    <div class="hero-panel delay-1">
-      <div class="hero-panel-head"><span>Suite Olcen</span><strong>2026</strong></div>
-      <div class="hero-metrics"><div><strong>01</strong><span>Produto com demo real</span></div><div><strong>04</strong><span>Linhas no portfólio</span></div><div><strong>12</strong><span>Prints capturados</span></div></div>
-      <div class="hero-rail"><span>RU Olcen</span><span>CRM</span><span>Ponto</span><span>Voz</span></div>
-    </div>
+
+  <div class="cover-proof reveal-seq delay-1">
+    <strong>01</strong>
+    <span>Produto com demonstração real</span>
+    <strong>12</strong>
+    <span>Capturas do sistema</span>
   </div>
 </section>
 
@@ -39,14 +49,14 @@ routeAlias: produtos
   <div class="slide-head reveal-seq">
     <p class="eyebrow">Menu inicial</p>
     <h1>Escolha a narrativa do produto.</h1>
-    <p class="lead">A apresentação abre pelo portfólio e cada produto tem sua própria história comercial, demo e próximos passos.</p>
+    <p class="lead">A apresentação começa pelo portfólio, e cada produto tem sua própria narrativa comercial, demonstração e próximos passos.</p>
   </div>
 
   <div class="product-menu reveal-seq delay-1">
     <div class="product-card product-card-featured">
       <div class="product-card-top"><span>01</span><small>Pronto para apresentar</small></div>
       <h3>RU Olcen</h3>
-      <p>Gestão de pessoas, recrutamento, portal, ponto, férias, remuneração e indicadores em uma base única.</p>
+      <p>Gestão de pessoas, recrutamento, portal do colaborador, ponto, férias, remuneração e indicadores em uma base única.</p>
       <Link to="rh" class="card-link">Abrir apresentação</Link>
     </div>
     <div class="product-card">
@@ -80,7 +90,7 @@ routeAlias: rh
   <div class="product-hero-copy reveal-seq">
     <p class="eyebrow">Produto 01</p>
     <h1>RU Olcen</h1>
-    <p class="lead">A camada operacional e analítica para RH que precisa controlar pessoas, jornada, talentos e remuneração sem depender de planilhas paralelas.</p>
+    <p class="lead">Uma camada operacional e analítica para áreas de RH que precisam controlar pessoas, jornada, talentos e remuneração sem depender de planilhas paralelas.</p>
   </div>
 
   <div class="product-hero-shot reveal-seq delay-1">
@@ -95,7 +105,7 @@ layout: default
 <section class="problem-slide stage-frame">
   <div class="slide-head reveal-seq">
     <p class="eyebrow">O problema</p>
-    <h1>RH cresce, mas a operação fica espalhada.</h1>
+    <h1>O RH cresce, mas a operação fica espalhada.</h1>
   </div>
 
   <div class="pain-matrix reveal-seq delay-1">
@@ -112,7 +122,7 @@ layout: default
     <div>
       <span>Decisão</span>
       <h3>Pouca visibilidade</h3>
-      <p>Liderança acompanha turnover, absenteísmo e custo de pessoal tarde demais.</p>
+      <p>A liderança enxerga rotatividade, absenteísmo e custo de pessoal tarde demais.</p>
     </div>
   </div>
 </section>
@@ -122,7 +132,7 @@ layout: default
 
 <section class="platform-map-slide stage-frame">
   <div class="slide-head reveal-seq">
-    <p class="eyebrow">Como o RU organiza o sistema</p>
+    <p class="eyebrow">Como o RU organiza a gestão</p>
     <h1>Uma base única conectando operação, experiência e decisão.</h1>
   </div>
 
@@ -130,11 +140,11 @@ layout: default
     <div class="platform-core">
       <small>Centro da plataforma</small>
       <strong>Base de pessoas</strong>
-      <span>Colaborador, cargo, empresa, departamento, status e histórico</span>
+      <span>Colaborador, cargo, empresa, departamento, situação e histórico</span>
     </div>
     <div class="platform-lane lane-left">
       <span>Entrada</span>
-      <strong>Recrutamento e onboarding</strong>
+      <strong>Recrutamento e integração</strong>
       <small>Vagas, candidatos, entrevistas, admissão e exames</small>
     </div>
     <div class="platform-lane lane-top">
@@ -145,12 +155,12 @@ layout: default
     <div class="platform-lane lane-right">
       <span>Crescimento</span>
       <strong>Carreira e desenvolvimento</strong>
-      <small>CHA, competências, avaliações, 1:1, PDI e ninebox</small>
+      <small>CHA, competências, avaliações, reuniões 1:1, PDI e matriz nine box</small>
     </div>
     <div class="platform-lane lane-bottom">
       <span>Gestão</span>
       <strong>Indicadores e remuneração</strong>
-      <small>Turnover, absenteísmo, salários, benchmarks e recortes por área</small>
+      <small>Rotatividade, absenteísmo, salários, referências de mercado e recortes por área</small>
     </div>
   </div>
 </section>
@@ -173,7 +183,7 @@ layout: default
     <div>
       <span>02</span>
       <h3>Admitir</h3>
-      <p>Transformar contratação em onboarding, documentos e acesso ao portal.</p>
+      <p>Transformar contratação em integração, documentos e acesso ao portal.</p>
     </div>
     <div>
       <span>03</span>
@@ -183,7 +193,7 @@ layout: default
     <div>
       <span>04</span>
       <h3>Desenvolver</h3>
-      <p>Conectar cargos, competências, feedbacks, avaliações e PDI.</p>
+      <p>Conectar cargos, competências, conversas de feedback, avaliações e PDI.</p>
     </div>
     <div>
       <span>05</span>
@@ -200,9 +210,9 @@ layout: default
   <div class="evidence-copy reveal-seq">
     <p class="eyebrow">Visão executiva</p>
     <h1>Indicadores RH</h1>
-    <p class="lead">Headcount, turnover, absenteísmo, retenção e custo de rotatividade com recortes para liderança agir antes do problema virar rotina.</p>
+    <p class="lead">Quadro de pessoal, rotatividade, absenteísmo, retenção e custo de rotatividade com recortes para a liderança agir antes que o problema vire rotina.</p>
     <div class="proof-chips">
-      <span>Turnover</span>
+      <span>Rotatividade</span>
       <span>Absenteísmo</span>
       <span>Retenção</span>
     </div>
@@ -220,7 +230,7 @@ layout: default
   <div class="evidence-copy reveal-seq">
     <p class="eyebrow">Base operacional</p>
     <h1>Colaboradores e estrutura</h1>
-    <p class="lead">Cadastro vivo de colaboradores com empresa, departamento, status, presença, acesso ao portal e ações administrativas.</p>
+    <p class="lead">Cadastro centralizado de colaboradores, com empresa, departamento, situação, presença, acesso ao portal e ações administrativas.</p>
     <div class="proof-chips">
       <span>Departamentos</span>
       <span>Status</span>
@@ -260,9 +270,9 @@ layout: default
   <div class="evidence-copy reveal-seq">
     <p class="eyebrow">Remuneração</p>
     <h1>Panorama salarial</h1>
-    <p class="lead">Comparação entre salário atual, carreira, cargo e benchmarks públicos para orientar ajustes com critério e rastreabilidade.</p>
+    <p class="lead">Comparação entre salário atual, carreira, cargo e referências públicas para orientar ajustes com critério e rastreabilidade.</p>
     <div class="proof-chips">
-      <span>Benchmarks</span>
+      <span>Referências</span>
       <span>Faixas</span>
       <span>Equidade</span>
     </div>
@@ -298,7 +308,7 @@ layout: default
 
 <section class="evidence-slide reverse stage-frame">
   <div class="evidence-copy reveal-seq">
-    <p class="eyebrow">Jornada e DP</p>
+    <p class="eyebrow">Jornada e departamento pessoal</p>
     <h1>Controle de ponto</h1>
     <p class="lead">Presença, horas extras, banco de horas, ajustes, escalas, auditoria geográfica, importações e fechamento operacional.</p>
     <div class="proof-chips">
@@ -320,7 +330,7 @@ layout: default
   <div class="evidence-copy reveal-seq">
     <p class="eyebrow">Experiência do colaborador</p>
     <h1>Portal do colaborador</h1>
-    <p class="lead">Autoatendimento para mural, ponto, documentos, holerites, 1:1, férias, solicitações, pessoas, pesquisas e benefícios.</p>
+    <p class="lead">Autoatendimento para mural, ponto, documentos, holerites, reuniões 1:1, férias, solicitações, pessoas, pesquisas e benefícios.</p>
     <div class="proof-chips">
       <span>Autoatendimento</span>
       <span>Documentos</span>
@@ -339,16 +349,52 @@ layout: default
 <section class="coverage-slide stage-frame">
   <div class="slide-head reveal-seq">
     <p class="eyebrow">Cobertura funcional</p>
-    <h1>O RU Olcen cobre o ciclo inteiro de gestão de pessoas.</h1>
+    <h1>Um ciclo completo para gestão de pessoas.</h1>
   </div>
 
   <div class="module-map reveal-seq delay-1">
     <div><span>01</span><h3>Operação de RH</h3><p>Colaboradores, empresas, departamentos, usuários, calendário, férias, ponto e solicitações.</p></div>
-    <div><span>02</span><h3>Talentos</h3><p>Recrutamento, entrevistas, onboarding, exames ocupacionais, treinamentos e banco de talentos.</p></div>
-    <div><span>03</span><h3>Desenvolvimento</h3><p>Carreiras, CHA, avaliação comportamental, 1:1, ninebox, plano de ação e PDI.</p></div>
-    <div><span>04</span><h3>Decisão</h3><p>Indicadores de RH, panorama salarial, benchmarks públicos e recortes por área.</p></div>
+    <div><span>02</span><h3>Talentos</h3><p>Recrutamento, entrevistas, integração, exames ocupacionais, treinamentos e banco de talentos.</p></div>
+    <div><span>03</span><h3>Desenvolvimento</h3><p>Carreiras, CHA, avaliação comportamental, reuniões 1:1, matriz nine box, plano de ação e PDI.</p></div>
+    <div><span>04</span><h3>Decisão</h3><p>Indicadores de RH, panorama salarial, referências públicas e recortes por área.</p></div>
     <div><span>05</span><h3>Portal</h3><p>Mural, documentos, holerites, benefícios, pesquisas, organograma e autoatendimento.</p></div>
     <div><span>06</span><h3>Governança</h3><p>Canal de denúncias, auditoria, permissões, retenção de dados e histórico operacional.</p></div>
+  </div>
+</section>
+
+---
+---
+
+<section class="feature-table-slide stage-frame">
+  <div class="slide-head reveal-seq">
+    <p class="eyebrow">Mapa de funcionalidades</p>
+    <h1>Principais recursos do RU Olcen.</h1>
+  </div>
+
+  <div class="feature-table-wrap reveal-seq delay-1">
+    <table class="feature-table">
+      <thead>
+        <tr>
+          <th>Área</th>
+          <th>Funcionalidade</th>
+          <th>Características principais</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Gestão</td><td>Indicadores de RH</td><td>Quadro de pessoal, rotatividade, absenteísmo, retenção, custo de rotatividade e recortes por área.</td></tr>
+        <tr><td>Pessoas</td><td>Colaboradores</td><td>Cadastro centralizado com empresa, departamento, situação, presença, acesso ao portal e ações administrativas.</td></tr>
+        <tr><td>Estrutura</td><td>Empresas e departamentos</td><td>Organização da estrutura interna para apoiar permissões, filtros, relatórios e visão por área.</td></tr>
+        <tr><td>Carreira</td><td>Cargos, níveis e CHA</td><td>Requisitos, responsabilidades, competências, atitudes e critérios para desenvolvimento profissional.</td></tr>
+        <tr><td>Remuneração</td><td>Panorama salarial</td><td>Comparação entre salário atual, carreira, cargo, referências públicas, faixas e oportunidades de ajuste.</td></tr>
+        <tr><td>Talentos</td><td>Recrutamento e seleção</td><td>Vagas, candidatos, candidaturas, entrevistas, banco de talentos, portal público e aderência por IA.</td></tr>
+        <tr><td>Admissão</td><td>Integração e exames</td><td>Apoio ao processo de entrada, documentos, etapas de admissão e exames ocupacionais.</td></tr>
+        <tr><td>Jornada</td><td>Controle de ponto</td><td>Presença, marcações, horas extras, banco de horas, ajustes, escalas, auditoria e fechamento.</td></tr>
+        <tr><td>Rotina</td><td>Férias e solicitações</td><td>Programação, solicitações, aprovações, acompanhamento de pendências e histórico operacional.</td></tr>
+        <tr><td>Colaborador</td><td>Portal do colaborador</td><td>Autoatendimento para mural, ponto, documentos, holerites, benefícios, pesquisas e informações pessoais.</td></tr>
+        <tr><td>Desenvolvimento</td><td>Avaliações, 1:1 e PDI</td><td>Conversas de feedback, avaliações comportamentais, matriz nine box, planos de ação e desenvolvimento individual.</td></tr>
+        <tr><td>Governança</td><td>Canal de denúncias e auditoria</td><td>Registro de casos, permissões, rastreabilidade, retenção de dados e histórico das ações.</td></tr>
+      </tbody>
+    </table>
   </div>
 </section>
 
@@ -361,12 +407,12 @@ routeAlias: crm
   <div class="coming-copy reveal-seq">
     <p class="eyebrow">Produto 02</p>
     <h1>Olcen CRM</h1>
-    <p class="lead">Estrutura inicial para uma narrativa comercial de relacionamento, pipeline e previsibilidade.</p>
+    <p class="lead">Estrutura inicial para uma narrativa comercial de relacionamento, funil e previsibilidade.</p>
   </div>
   <div class="coming-board reveal-seq delay-1">
-    <div><span>01</span><h3>Pipeline comercial</h3><p>Etapas, oportunidades e responsáveis organizados em uma visão clara.</p></div>
+    <div><span>01</span><h3>Funil comercial</h3><p>Etapas, oportunidades e responsáveis organizados em uma visão clara.</p></div>
     <div><span>02</span><h3>Histórico do cliente</h3><p>Contexto de conversas, propostas e decisões em um só lugar.</p></div>
-    <div><span>03</span><h3>Próximo passo</h3><p>Ações comerciais explícitas para reduzir perda de timing.</p></div>
+    <div><span>03</span><h3>Próximo passo</h3><p>Ações comerciais explícitas para reduzir a perda do momento certo.</p></div>
   </div>
 </section>
 
@@ -413,7 +459,7 @@ routeAlias: voz
   <div class="reveal-seq">
     <p class="eyebrow">Próximos passos</p>
     <h1>Completar cada produto com evidência real.</h1>
-    <p class="lead">O RU Olcen já está pronto para apresentação. CRM, Ponto e Voz ficam preparados para receber prints, fluxo principal, métricas de impacto e chamada comercial específica.</p>
+    <p class="lead">A apresentação do RU Olcen já está pronta. CRM, Ponto e Voz ficam preparados para receber capturas do sistema, fluxo principal, métricas de impacto e chamada comercial específica.</p>
     <Link to="produtos" class="card-link">Voltar ao menu</Link>
   </div>
 </section>
