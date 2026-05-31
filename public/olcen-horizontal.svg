@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- placeholder -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" role="img" aria-label="Olcen">
+  <title>Olcen</title>
+  <g>
+    <!-- símbolo: três gotas em tons navy-900, navy-700, cyan-400 -->
+    <path d="M24 12c-6 8-10 14-10 20a10 10 0 0 0 20 0c0-6-4-12-10-20z" fill="#292d5c"/>
+    <path d="M44 20c-4 6-7 10-7 14a7 7 0 0 0 14 0c0-4-3-8-7-14z" fill="#3d63a5"/>
+    <path d="M60 28c-3 4-5 7-5 10a5 5 0 0 0 10 0c0-3-2-6-5-10z" fill="#4faed7"/>
+  </g>
+  <!-- wordmark -->
+  <text x="80" y="42" font-family="DM Sans, system-ui, sans-serif" font-size="28" font-weight="700" fill="#292d5c" letter-spacing="0.5">Olcen</text>
+</svg>
